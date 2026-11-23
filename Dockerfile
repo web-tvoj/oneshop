@@ -3,7 +3,7 @@
 FROM composer:2 AS composer
 FROM node:24-bookworm-slim AS node
 
-FROM php:8.5.12-fpm-bookworm AS base
+FROM php:8.6.0RC7-fpm-bookworm AS base
 
 ARG PHP_REDIS_VERSION=6.3.0
 
